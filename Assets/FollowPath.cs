@@ -85,4 +85,10 @@ public class FollowPath : MonoBehaviour
         currentWP = 0;
     }
 
+    public void GoToRefinery()
+    {
+        g.AStar(currentNode, wps[4]);
+        currentWP = 0;
+    }
+
 }
